@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 12.344 s <<< FAILURE! - in TestSuite
+beforeTest(NewTest.NewTest)  Time elapsed: 12.163 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5385
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'WIN-GEDESCREUP8', ip: '172.16.161.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: ChromeDriver
+	at NewTest.NewTest.beforeTest(NewTest.java:34)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5385
+	at NewTest.NewTest.beforeTest(NewTest.java:34)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at NewTest.NewTest.beforeTest(NewTest.java:34)
+
